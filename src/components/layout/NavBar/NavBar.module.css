@@ -19,8 +19,10 @@
 .item a {
     color: #FFF;
     text-decoration: none;
+    transition: 0.5s;
 }
 
 .item a:hover {
     color: #FFBB33;
+    border-bottom: 1px solid #FFBB33;
 }
