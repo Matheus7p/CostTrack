@@ -10,17 +10,6 @@
       },
       "cost": 0,
       "services": []
-    },
-    {
-      "id": "a33a",
-      "name": "Projeto teste",
-      "budget": "4200",
-      "category": {
-        "id": "3",
-        "name": "Design"
-      },
-      "cost": 0,
-      "services": []
     }
   ],
   "categories": [
@@ -42,3 +31,4 @@
     }
   ]
 }
+

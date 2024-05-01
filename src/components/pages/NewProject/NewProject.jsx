@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom'
 function NewProject() {
 
     const navigate =  useNavigate()
-    
+    const state = {message : 'Projeto criado com sucesso!'}
 
     function createPost(project) {
         // initialize costs and services
@@ -21,7 +21,7 @@ function NewProject() {
         })
         .then((resp) => resp.json())
         .then((data) => (
-            navigate("/projects", { message: "Projeto criado com sucesso!" })
+            navigate("/projects", { state })
         ))
         .catch((err) => console.log(err))
     }
