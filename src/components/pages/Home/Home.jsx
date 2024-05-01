@@ -1,5 +1,5 @@
 import styles from './Home.module.css'
-import { LinkButton } from '../../layout/LinkButton/LinkButton'
+import LinkButton from '../../layout/LinkButton/LinkButton'
 import savings from '../../../Assets/savings.svg'
 
 
